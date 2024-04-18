@@ -3,37 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
+    <link rel="stylesheet" href="style/style.css"/>
+    <link rel="stylesheet" href="fonts.css">
+    <title>Landingpage</title>
   <body>
     <header>
-      <div>Marketing Creativo</div>
+      <div id="title">
+        <h1>Marketing</h1>
+        <h1>Criativo</h1>
+      </div>
       <div>
         <ul>
-          <li>Incio</li>
-          <li>Serviços</li>
-          <li>Sobre</li>
-          <li>Contatos</li>
-          <li><input type="button" />Já tem uma conta?</li>
+          <a href="#"><li>Incio</li></a>
+          <a href="#"> <li>Serviços</li></a>
+          <a href="#"><li>Sobre</li></a>
+          <a href="#"><li>Contatos</li></a>
+          <a href="#"id="inscreva-se-btn"><li>Já tem uma conta?</li></a>
         </ul>
       </div>
     </header>
-    <div>
-        <h1>Inscreva-se agora na Newslatter</h1>
+    <main>
+      <aside>
+        <h2><span>Inscreva-se agora</span></h2>
+        <h2>na Newslatter</h2>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           Exercitationem aliquam aut, quasi, non dignissimos quaerat illo ad,
           dolorem sunt cupiditate doloribus veniam assumenda expedita obcaecati
           veritatis autem architecto asperiores debitis?
         </p>
-      </div>
-   <div>
-    <ul>
-        <li> <input type="text">Nome</li>
-        <li><input type="email"></li>
-        <li><input type="#" name="" id="">Enviar</li>
-    </ul>
-   </div>
-      
-</body>
+        <form>
+          <input type="text" placeholder="Nome" />
+          <input type="email" placeholder="E-mail" />
+          <input type="submit" value="Enviar >" />
+        </form>
+      </aside>
+      <article>
+        <img src="/img/77d0a7c454e658833800528e748edbe9.png" alt="">
+      </article>
+    </main>
+  </body>
 </html>
